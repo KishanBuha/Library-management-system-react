@@ -1,0 +1,45 @@
+#nav {
+  background-color: #ffffff;
+  min-height: 60px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+#nav > span {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #343a40;
+}
+
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav ul li {
+  display: inline;
+  margin-left: 25px;
+  font-size: 1.1em;
+}
+
+#nav a, #nav span[style*="cursor: pointer"] {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+#nav a:hover, #nav span[style*="cursor: pointer"]:hover {
+  color: #28a745;
+}
+
+/* New style for the active link */
+#nav a.active {
+  color: #28a745;
+  font-weight: 600;
+}

@@ -1,0 +1,28 @@
+.reports-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.reports-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.reports-header h2 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.action-issued {
+    color: #ffc107; /* Yellow for pending/issued */
+    font-weight: 500;
+}
+
+.action-returned {
+    color: #28a745; /* Green for completed/returned */
+    font-weight: 500;
+}

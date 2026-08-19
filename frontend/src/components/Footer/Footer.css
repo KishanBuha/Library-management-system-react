@@ -1,0 +1,8 @@
+.footer-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #6c757d;
+    border-top: 1px solid #e9ecef;
+    margin-top: auto; /* This helps stick the footer to the bottom */
+}

@@ -1,0 +1,40 @@
+.admin-dashboard-container {
+    padding: 20px;
+}
+
+.dashboard-title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #343a40;
+}
+
+.stat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.stat-card {
+    padding: 25px;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.stat-card .stat-number {
+    font-size: 2.5em;
+    font-weight: 600;
+    display: block;
+}
+
+.stat-card .stat-label {
+    font-size: 1.1em;
+}
+
+.stat-card.total-books { background-color: #28a745; }
+.stat-card.total-students { background-color: #17a2b8; }
+.stat-card.books-issued { background-color: #ffc107; color: #333; }
+.stat-card.books-returned { background-color: #007bff; }

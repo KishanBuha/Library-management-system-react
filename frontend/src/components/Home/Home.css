@@ -1,0 +1,74 @@
+.home-container {
+    text-align: center;
+}
+
+.welcome-header {
+    margin-bottom: 40px;
+}
+
+.welcome-header h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #333;
+}
+
+.welcome-header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    text-align: center;
+    border: 1px solid #e9ecef;
+}
+
+.card h4 {
+    margin-top: 0;
+    font-size: 1.4em;
+    color: #343a40;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #6c757d;
+    margin-bottom: 25px;
+    min-height: 40px;
+}
+
+.card .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.card .btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+
+.card .btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.card .btn-outline-primary {
+    border-color: #28a745;
+    color: #28a745;
+}
+
+.card .btn-outline-primary:hover {
+    background-color: #28a745;
+    color: white;
+}

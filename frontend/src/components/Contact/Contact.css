@@ -1,0 +1,33 @@
+.contact-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact-container h2 {
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.contact-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    line-height: 1.8;
+}
+
+.contact-card p {
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 1rem;
+}
+
+.contact-card a {
+    color: #28a745;
+}
+
+.contact-card hr {
+    margin: 20px 0;
+}

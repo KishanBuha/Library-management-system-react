@@ -1,0 +1,70 @@
+.issue-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .issue-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .issue-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: end;
+  }
+  
+  .form-group label {
+    font-weight: 500;
+    margin-bottom: .5rem;
+    display: block;
+  }
+  
+  .form-group select, .form-group .form-control {
+    width: 100%;
+    padding: .5rem .75rem;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    height: calc(1.5em + 1rem + 2px);
+  }
+  
+  .issue-form .btn {
+    grid-column: 1 / -1; /* Make button span both columns */
+    width: auto;
+    justify-self: start;
+    background-color: #28a745;
+    border-color: #28a745;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: white;
+    margin-top: 10px;
+  }
+  .issue-form .btn:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  .message {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .message.success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
